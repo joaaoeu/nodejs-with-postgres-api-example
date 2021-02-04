@@ -1,3 +1,11 @@
+# Mini k8s course
+
+Studying k8s with the [mini course](https://youtu.be/eXKg9B5ooaY) by Erick Wendel.
+
+Project started from an example [repository](https://github.com/ErickWendel/nodejs-with-postgres-api-example).
+
+---
+
 ## Node.js with Postgres Example
 
 <img
@@ -7,21 +15,21 @@
 
 ### Requirements
 
-* Node.js v8+ or Docker and Docker Compose
-* Postgres running on local instance or Docker
+- Node.js v8+ or Docker and Docker Compose
+- Postgres running on local instance or Docker
 
 ### Running on localMachine
 
-* Install dependencies - `npm i`
-* Run project - `npm start`
+- Install dependencies - `npm i`
+- Run project - `npm start`
 
 ### OR: Docker
 
-* `docker-compose up`
+- `docker-compose up`
 
 ### OR: Alternatives on pulling from Docker hub
 
-* Docker hub image: [erickwendel/nodejs-with-postgres-api-example](https://hub.docker.com/r/erickwendel/nodejs-with-postgres-api-example/)
+- Docker hub image: [erickwendel/nodejs-with-postgres-api-example](https://hub.docker.com/r/erickwendel/nodejs-with-postgres-api-example/)
 
 ```shell
 docker run -d -p 5432:5432 --name postgres \
@@ -41,4 +49,4 @@ docker run -p 3000:3000 \
 
 ### Viewing
 
-* Go to swagger page - `localhost:3000/documentation`
+- Go to swagger page - `localhost:3000/documentation`
