@@ -6,6 +6,45 @@ Project started from an example [repository](https://github.com/ErickWendel/node
 
 ---
 
+# Notes: Kubernetes - k8s - minikube
+
+pvc = persistent volume claim
+
+```
+# minikube start
+# minikube dashboard
+# minikube service <service_name> --url
+# minikube delete
+
+# kubectl get nodes
+# kubectl get nodes -w
+# kubectl get sts
+# kubectl get sts -w
+# kubectl get svc
+# kubectl get svc -w
+# kubectl get deploy
+# kubectl get deploy -w
+# kubectl get pod
+# kubectl get pod -w
+
+# kubectl describe nodes
+# kubectl describe sts <sts_name>
+# kubectl describe svc <svc_name>
+# kubectl describe deploy <deploy_name>
+# kubectl describe pod <pod_name>
+
+# kubectl logs <pod_name>
+# kubectl logs -f <pod_name>
+
+# kubectl create -f file.json
+# kubectl apply -f file.json
+
+# kubectl delete -f .
+# kubectl create -f .
+```
+
+---
+
 ## Node.js with Postgres Example
 
 <img
